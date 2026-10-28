@@ -18,7 +18,15 @@ npm install -D yv-type-utils
 
 ## Configuration
 
-If your project uses a restrictive `types` or `typeRoots` configuration, make sure the package is included.
+If your project defines `compilerOptions.types` in `tsconfig.json`, add `yv-type-utils` to make its global utility types available.
+
+```json
+{
+  "compilerOptions": {
+    "types": ["yv-type-utils", ...]
+  }
+}
+```
 
 ## Object utilities
 
