@@ -1,0 +1,24 @@
+{
+  "name": "yv-type-utils",
+  "version": "1.0.1",
+  "description": "Reusable global TypeScript utility types",
+  "types": "./src/utils.d.ts",
+  "files": [
+    "src/utils.d.ts"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck"
+  },
+  "keywords": [
+    "typescript",
+    "utility-types",
+    "global-types",
+    "type-utilities"
+  ],
+  "author": "Yoni Vindelinckx",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
