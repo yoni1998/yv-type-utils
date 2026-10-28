@@ -1,6 +1,6 @@
 {
   "name": "yv-type-utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Reusable global TypeScript utility types",
   "types": "./src/utils.d.ts",
   "files": [
