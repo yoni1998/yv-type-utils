@@ -1,6 +1,14 @@
 {
   "name": "yv-type-utils",
-  "version": "1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoni1998/yv-type-utils"
+  },
+  "homepage": "https://github.com/yoni1998/yv-type-utils#readme",
+  "bugs": {
+    "url": "https://github.com/yoni1998/yv-type-utils/issues"
+  },
+  "version": "1.0.4",
   "description": "Reusable global TypeScript utility types",
   "types": "./src/utils.d.ts",
   "files": [
@@ -14,7 +22,8 @@
     "typescript",
     "utility-types",
     "global-types",
-    "type-utilities"
+    "type-utilities",
+    "yoni vindelinckx"
   ],
   "author": "Yoni Vindelinckx",
   "license": "MIT",
