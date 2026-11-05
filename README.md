@@ -16,18 +16,6 @@ Or with npm:
 npm install -D yv-type-utils
 ```
 
-## Configuration
-
-If your project defines `compilerOptions.types` in `tsconfig.json`, add `yv-type-utils` to make its global utility types available.
-
-```json
-{
-  "compilerOptions": {
-    "types": ["yv-type-utils", ...]
-  }
-}
-```
-
 ## Object utilities
 
 ### `NullableBy<T, K>`
@@ -86,7 +74,7 @@ interface User {
 type UserUpdate = PartialBy<User, "name" | "email">;
 
 const update: UserUpdate = {
-  name: "Yoni",
+  id: 1,
 };
 
 // Valid: id is still required.

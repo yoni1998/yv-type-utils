@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/yoni1998/yv-type-utils/issues"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Reusable global TypeScript utility types",
   "types": "./src/utils.d.ts",
   "files": [
